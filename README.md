@@ -20,19 +20,4 @@ This project extends the Part 1 registration/login application with the Part 2 Q
 - The recently-sent menu item intentionally prints `Coming Soon.` as specified.
 - "Disregard" asks the user to press 0 to delete the message and does not increase the sent count. "Store" writes the message to `messages.json` and does not increase the sent count.
 
-## Open in NetBeans
-1. Extract the ZIP file.
-2. In NetBeans, choose **File -> Open Project** and select the `PoE_Part2` folder (the folder containing `pom.xml`).
-3. Right-click the **PoE_Part2** project (not PoE_Part1) and choose **Clean and Build**, then **Run**. The main class is set in `pom.xml` (`com.prog5121.poe.Main`).
-4. Run tests with **Test Project** or `mvn test`.
 
-## GitHub / feature branch
-Create a feature branch before changing Part 2, for example:
-`git checkout -b sending-messages`
-
-Commit changes in small, genuine stages and push them to your repository. Do not claim commits or CI runs until you have actually made/pushed them. GitHub Actions runs tests automatically after the workflow is pushed.
-
-## Before submission
-- Run all tests in your own NetBeans/Maven environment.
-- Confirm the rubric's exact expected wording and recipient-number rule with your lecturer if unclear.
-- Record your own demonstration video, explaining the code and showing successful and unsuccessful test cases.
